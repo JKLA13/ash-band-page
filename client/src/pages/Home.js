@@ -1,0 +1,23 @@
+import React from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image";
+import Picture from "../assets/images/IMG_0021.JPG";
+
+function Home() {
+  return (
+    <>
+      <Container fluid bg="dark" variant="dark">
+        <Row>
+          <Col>
+            <h1>Album Coming Soon</h1>
+            <Image src={Picture} className="me-3 img-fluid" />
+          </Col>
+        </Row>
+      </Container>
+    </>
+  );
+}
+
+export default Home;

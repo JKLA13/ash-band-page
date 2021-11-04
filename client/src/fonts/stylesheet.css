@@ -1,10 +1,11 @@
 @font-face {
     font-family: 'DK Sheepman';
-    src: url('DKSheepman.woff2') format('woff2'),
-        url('DKSheepman.woff') format('woff'),
-        url('DKSheepman.ttf') format('truetype');
+    src: url('DKSheepman.woff2') format('woff2')
+    ;
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
+/* url('DKSheepman.woff') format('woff')  */
+/* url('DKSheepman.ttf') format('truetype'), */

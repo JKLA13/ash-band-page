@@ -1,5 +1,6 @@
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
+import Home from "./pages/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../src/fonts/stylesheet.css";
 // import { setContext } from "@apollo/client/link/context";
@@ -11,6 +12,7 @@ function App() {
     // <Router>
     <>
       <NavBar />
+      <Home />
     </>
     // </Router>
   );
