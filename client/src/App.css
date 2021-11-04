@@ -38,3 +38,20 @@
   }
 }
 
+@font-face {
+  font-family: 'DK Sheepman';
+  src: url('./fonts/DKSheepman.woff2') format('woff2'),
+  ;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: 'DK Sheepman';
+  font-weight: normal;
+  font-style: normal;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;    
+}
