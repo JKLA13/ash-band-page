@@ -3,22 +3,24 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-// import Image from "react-bootstrap/Image";
-// import Picture from "../assets/images/IMG_0021.JPG";
+import Image from "react-bootstrap/Image";
+import Picture from "../assets/images/IMG_0027.jpg";
 import "../fonts/stylesheet.css";
 
 function About() {
   return (
     <>
-      <Container fluid bg>
+      <Container fluid className="bg-black text-muted">
         <Row>
           <Col>
             <p>
               In 2018, there was a tragic laboratory accident in Denver, CO.
               There were only three survivors. Those survivors started making
-              music that would go on to be described as "a slop bucket of grease
-              slick sounds." That band is A Strange Happening.{" "}
+              music that would go on to be described as "a possessed,
+              slop-bucket of grease-slick-sounds." That band is A Strange
+              Happening.{" "}
             </p>
+            <Image src={Picture} className="me-8 img-fluid" />
           </Col>
         </Row>
         <Row>

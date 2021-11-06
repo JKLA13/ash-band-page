@@ -9,7 +9,7 @@ import "../fonts/stylesheet.css";
 function Home() {
   return (
     <>
-      <Container fluid>
+      <Container fluid className="bg-black text-muted">
         <Row>
           <Col>
             <h2 className="align-content-center">***Album Coming Soon***</h2>
