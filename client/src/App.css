@@ -62,3 +62,8 @@ ul {
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margins */
 }
+
+.photo {
+  height: 550px;
+  width: 100px
+}

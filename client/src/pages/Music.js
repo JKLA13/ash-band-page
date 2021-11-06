@@ -13,8 +13,10 @@ function About() {
       <Container fluid className="bg-black text-muted">
         <Row>
           <Col className="m-5">
-            <h2>*** Album Coming Soon ! ***</h2>
-            <h2>Our First Single: The House in Cypress Canyon</h2>
+            <h2 className="text-center">*** Album Coming Soon ! ***</h2>
+            <h2 className="text-center">
+              Our First Single: The House in Cypress Canyon
+            </h2>
             <iframe
               title="A Strange Happening - The House in Cypress Canyon Single"
               style={{ padding: 5, border: 1, width: 350, height: 442 }}
