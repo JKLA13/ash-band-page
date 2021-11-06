@@ -30,7 +30,7 @@ function About() {
             <ul>
               <li>- Jake Adamson - Vocals, Guitar, Keys</li>
               <li>- Elisha Coy - Bass, Vocals</li>
-              <li>- Matt McNiff - Drums, Key</li>
+              <li>- Matt McNiff - Drums, Keys</li>
             </ul>
           </Col>
         </Row>
