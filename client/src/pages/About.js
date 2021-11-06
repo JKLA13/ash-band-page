@@ -16,9 +16,8 @@ function About() {
             <p>
               In 2018, there was a tragic laboratory accident in Denver, CO.
               There were only three survivors. Those survivors started making
-              music that would go on to be described as "a possessed,
-              slop-bucket of grease-slick-sounds." That band is A Strange
-              Happening.{" "}
+              music that would go on to be described as "a possessed, slop
+              bucket of grease slick sounds." That band is A Strange Happening.{" "}
             </p>
             <Image src={Picture} className="me-8 img-fluid" />
           </Col>
@@ -31,7 +30,7 @@ function About() {
             <ul>
               <li>- Jake Adamson - Vocals, Guitar, Keys</li>
               <li>- Elisha Coy - Bass, Vocals</li>
-              <li>- Matt McNiff - Drums, Key</li>
+              <li>- Matt McNiff - Drums, Keys</li>
             </ul>
           </Col>
         </Row>

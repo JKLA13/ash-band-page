@@ -17,16 +17,19 @@ function App() {
       <Router>
         <NavBar />
         <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
           <Route exact path="/home">
             <Home />
           </Route>
           <Route exact path="/about">
             <About />
           </Route>
-          <Route exact path="/Music">
+          <Route exact path="/music">
             <Music />
           </Route>
-          <Route exact path="/Media">
+          <Route exact path="/media">
             <Media />
           </Route>
         </Switch>
