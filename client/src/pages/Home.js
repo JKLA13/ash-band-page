@@ -11,8 +11,8 @@ function Home() {
     <>
       <Container fluid className="bg-black text-muted">
         <Row>
-          <Col>
-            <h2 className="align-content-center">***Album Coming Soon***</h2>
+          <Col className="m-5">
+            <h2 className="align-content-center">*** Album Coming Soon! ***</h2>
             <Image src={Picture} className="me-3 img-fluid" />
           </Col>
         </Row>

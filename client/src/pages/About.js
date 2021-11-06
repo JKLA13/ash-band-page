@@ -12,7 +12,7 @@ function About() {
     <>
       <Container fluid className="bg-black text-muted">
         <Row>
-          <Col>
+          <Col className="m-5">
             <p>
               In 2018, there was a tragic laboratory accident in Denver, CO.
               There were only three survivors. Those survivors started making
