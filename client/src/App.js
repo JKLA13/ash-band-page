@@ -8,8 +8,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import "../src/fonts/stylesheet.css";
 import "../src/App.css";
 // import { setContext } from "@apollo/client/link/context";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import { BrowserRouter as Router } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Router>
         <NavBar />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/home">
             <Home />
           </Route>
           <Route exact path="/about">
