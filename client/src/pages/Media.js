@@ -5,7 +5,14 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Carousel from "react-bootstrap/Carousel";
 // import Image from "react-bootstrap/Image";
-// import Picture from "../assets/images/IMG_0021.JPG";
+import Picture1 from "../assets/images/IMG_9022.jpg";
+import Picture2 from "../assets/images/IMG_7246.jpg";
+import Picture3 from "../assets/images/IMG_9018.jpg";
+import Picture4 from "../assets/images/IMG_9019.jpg";
+import Picture5 from "../assets/images/IMG_9039.jpg";
+import Picture6 from "../assets/images/IMG_9020.jpg";
+import Picture7 from "../assets/images/IMG_9034.jpg";
+import Picture8 from "../assets/images/IMG_9023.jpg";
 import "../fonts/stylesheet.css";
 
 function Media() {
@@ -15,44 +22,63 @@ function Media() {
         <Row>
           <Col className="m-5">
             <Carousel>
-              <Carousel.Item interval={1000}>
-                <img
-                  className="d-block w-100"
-                  src="holder.js/800x400?text=First slide&bg=373940"
-                  alt="First slide"
-                />
+              <Carousel.Item interval={3000}>
+                <img className="d-block w-100" src={Picture1} alt="1" />
                 <Carousel.Caption>
-                  <h3>First slide label</h3>
+                  {/* <h3>Recoring the spectre</h3> */}
+                  <p>Recording the spectre.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={3000}>
+                <img className="d-block w-100" src={Picture2} alt="2" />
+                <Carousel.Caption>
+                  {/* <h3>Second slide label</h3> */}
+                  <p>Rehearsing the cover song.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={3000}>
+                <img className="d-block w-100" src={Picture3} alt="3" />
+                <Carousel.Caption>
+                  {/* <h3>Third slide label</h3> */}
+                  <p>Laying down voices...</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={3000}>
+                <img className="d-block w-100" src={Picture4} alt="4" />
+                <Carousel.Caption>
+                  {/* <h3>Third slide label</h3> */}
+                  <p>Laying down more voices...</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={3000}>
+                <img className="d-block w-100" src={Picture5} alt="5" />
+                <Carousel.Caption>
+                  {/* <h3>Third slide label</h3> */}
+                  <p>Laying down even more voices...</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={3000}>
+                <img className="d-block w-100" src={Picture6} alt="6" />
+                <Carousel.Caption>
+                  {/* <h3>Third slide label</h3> */}
+                  <p>Mixing the noises.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={3000}>
+                <img className="d-block w-100" src={Picture7} alt="7" />
+                <Carousel.Caption>
+                  {/* <h3>Third slide label</h3> */}
                   <p>
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    Synth and whiskey experiment that turned into the tragic lab
+                    accident.
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item interval={500}>
-                <img
-                  className="d-block w-100"
-                  src="holder.js/800x400?text=Second slide&bg=282c34"
-                  alt="Second slide"
-                />
+              <Carousel.Item interval={3000}>
+                <img className="d-block w-100" src={Picture8} alt="8" />
                 <Carousel.Caption>
-                  <h3>Second slide label</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src="holder.js/800x400?text=Third slide&bg=20232a"
-                  alt="Third slide"
-                />
-                <Carousel.Caption>
-                  <h3>Third slide label</h3>
-                  <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
-                  </p>
+                  {/* <h3>Third slide label</h3> */}
+                  <p>Wirey, werewolf and bass playing.</p>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
