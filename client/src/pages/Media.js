@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -25,56 +24,48 @@ function Media() {
               <Carousel.Item interval={3000}>
                 <img className="d-block w-100 photo" src={Picture1} alt="1" />
                 <Carousel.Caption>
-                  {/* <h3>Recoring the spectre</h3> */}
                   <p>Recording the spectre.</p>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item interval={3000}>
                 <img className="d-block w-100 photo" src={Picture2} alt="2" />
                 <Carousel.Caption>
-                  {/* <h3>Second slide label</h3> */}
                   <p>Rehearsing the cover song.</p>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item interval={3000}>
                 <img className="d-block w-100 photo" src={Picture3} alt="3" />
                 <Carousel.Caption>
-                  {/* <h3>Third slide label</h3> */}
                   <p>Laying down voices...</p>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item interval={3000}>
                 <img className="d-block w-100 photo" src={Picture4} alt="4" />
                 <Carousel.Caption>
-                  {/* <h3>Third slide label</h3> */}
                   <p>Laying down more voices...</p>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item interval={3000}>
                 <img className="d-block w-100 photo" src={Picture5} alt="5" />
                 <Carousel.Caption>
-                  {/* <h3>Third slide label</h3> */}
                   <p>Laying down even more voices...</p>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item interval={3000}>
                 <img className="d-block w-100 photo" src={Picture6} alt="6" />
                 <Carousel.Caption>
-                  {/* <h3>Third slide label</h3> */}
                   <p>Mixing the noises.</p>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item interval={3000}>
                 <img className="d-block w-100 photo" src={Picture7} alt="7" />
                 <Carousel.Caption>
-                  {/* <h3>Third slide label</h3> */}
                   <p>Wirey, werewolf and bass playing.</p>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item interval={3000}>
                 <img className="d-block w-100 photo" src={Picture8} alt="8" />
                 <Carousel.Caption>
-                  {/* <h3>Third slide label</h3> */}
                   <p>
                     Synths and whiskey experiment that turned into the tragic
                     lab accident.
