@@ -13,7 +13,17 @@ function About() {
       <Container fluid className="bg-black text-muted">
         <Row>
           <Col className="m-5">
-            <h2 className="text-center">*** Album Coming Soon ! ***</h2>
+            <h2 className="text-center">***Album out now on Bandcamp!!!***</h2>
+            <iframe
+              title="A Strange Happening - Album"
+              style={{ padding: 5, border: 1, width: 350, height: 470 }}
+              src="https://bandcamp.com/EmbeddedPlayer/album=911844722/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/"
+              seamless
+            >
+              <a href="https://astrangehappening.bandcamp.com/album/a-strange-happening">
+                A Strange Happening by A Strange Happening
+              </a>
+            </iframe>
             <h2 className="text-center">
               Our First Single: The House in Cypress Canyon
             </h2>

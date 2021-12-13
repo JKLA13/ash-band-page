@@ -12,7 +12,11 @@ function Home() {
       <Container fluid className="bg-black text-muted">
         <Row>
           <Col className="m-5">
-            <h2 className="text-center">*** Album Coming Soon ! ***</h2>
+            <a href="https://astrangehappening.bandcamp.com/album/a-strange-happening">
+              <h2 className="text-center">
+                *** Album out now on Bandcamp!! ***
+              </h2>
+            </a>
             <Image src={Picture} className="me-3 img-fluid" />
           </Col>
         </Row>
