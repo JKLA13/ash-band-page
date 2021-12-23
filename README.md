@@ -11,7 +11,7 @@ I used React, Node.js, HTML, Bootstrap, and CSS to create this website for my ba
 ## Links
 
 - # https://github.com/JKLA13/ash-band-page
-- # https://astrangehappeningband.herokuapp.com/#/Media
+- # https://astrangehappeningband.herokuapp.com/
 
 ## Tech Used
 
