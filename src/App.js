@@ -10,7 +10,7 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <div style={{ backgroundColor: "black" }}>
       <Router>
         <NavBar />
         <Switch>
@@ -31,7 +31,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-    </>
+    </div>
   );
 }
 
