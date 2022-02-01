@@ -17,7 +17,7 @@ import "../fonts/stylesheet.css";
 function Media() {
   return (
     <>
-      <Container fluid className="bg-black text-muted">
+      <Container fluid className="text-muted d-flex">
         <Row>
           <Col className="m-5">
             <Carousel fluid>

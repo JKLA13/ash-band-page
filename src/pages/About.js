@@ -10,9 +10,9 @@ import "../fonts/stylesheet.css";
 function About() {
   return (
     <>
-      <Container fluid className="bg-black text-muted">
+      <Container fluid className="text-muted">
         <Row>
-          <Col className="m-5">
+          <Col className="m-3">
             <p>
               In 2018, there was a tragic laboratory accident in Denver, CO.
               There were only three survivors. Those survivors started making
@@ -22,6 +22,7 @@ function About() {
             <Image src={Picture} className="me-8 img-fluid" />
           </Col>
         </Row>
+
         <Row>
           <Col>
             <ul>
