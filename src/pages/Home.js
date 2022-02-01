@@ -12,7 +12,10 @@ function Home() {
       <Container fluid className="bg-black text-muted">
         <Row>
           <Col className="m-5">
-            <a href="https://astrangehappening.bandcamp.com/album/a-strange-happening">
+            <a
+              href="https://astrangehappening.bandcamp.com/album/a-strange-happening"
+              target="blank"
+            >
               <h2 className="text-center">
                 *** Album out now on Bandcamp!! ***
               </h2>
