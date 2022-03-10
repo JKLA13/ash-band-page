@@ -10,21 +10,20 @@ import "../fonts/stylesheet.css";
 function About() {
   return (
     <>
-      <Container fluid className="text-muted">
+      <Container fluid className="text-muted text-center w-75">
         <Row>
-          <Col className="m-3">
+          <Col className="m-2">
             <p>
               In 2018, there was a tragic laboratory accident in Denver, CO.
               There were only three survivors. Those survivors started making
               music that would go on to be described as "a possessed, slop
               bucket of grease slick sounds." That band is A Strange Happening.{" "}
             </p>
-            <Image src={Picture} className="me-8 img-fluid" />
+            <Image src={Picture} className="me-8 center w-75 img-fluid" />
           </Col>
         </Row>
-
         <Row>
-          <Col>
+          <Col className="me-2">
             <ul>
               <li>A Strange Happening is:</li>
             </ul>

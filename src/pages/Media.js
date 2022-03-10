@@ -22,7 +22,7 @@ import "../fonts/stylesheet.css";
 function Media() {
   return (
     <>
-      <Container fluid className="text-muted d-flex">
+      <Container fluid className="w-75 text-muted d-flex">
         <Row>
           <Col className="m-5">
             <Carousel fluid>
@@ -89,9 +89,7 @@ function Media() {
               <Carousel.Item interval={3000}>
                 <img className="d-block w-100 photo" src={Picture8} alt="8" />
                 <Carousel.Caption>
-                  <p>
-                    Synths and whiskey experiment = the tragic lab accident.
-                  </p>
+                  <p>Synths + whiskey.</p>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>

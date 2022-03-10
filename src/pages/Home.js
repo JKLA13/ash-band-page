@@ -9,7 +9,7 @@ import "../fonts/stylesheet.css";
 function Home() {
   return (
     <>
-      <Container fluid className="d-flex text-muted">
+      <Container fluid className="d-flex text-muted w-75">
         <Row>
           <Col className="m-5">
             <a
