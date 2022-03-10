@@ -4,6 +4,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Carousel from "react-bootstrap/Carousel";
 // import Image from "react-bootstrap/Image";
+import Picture00 from "../assets/images/band.jpg";
+import Picture0 from "../assets/images/IMG_0027.jpg";
 import Picture1 from "../assets/images/IMG_9022.jpg";
 import Picture2 from "../assets/images/IMG_7246.jpg";
 import Picture3 from "../assets/images/IMG_9018.jpg";
@@ -12,6 +14,9 @@ import Picture5 from "../assets/images/IMG_9039.jpg";
 import Picture6 from "../assets/images/IMG_9020.jpg";
 import Picture7 from "../assets/images/IMG_9023.jpg";
 import Picture8 from "../assets/images/IMG_9034.jpg";
+import Picture9 from "../assets/images/IMG_7457.jpg";
+// import Picture10 from "../assets/images/IMG_7274.jpg";
+
 import "../fonts/stylesheet.css";
 
 function Media() {
@@ -21,6 +26,18 @@ function Media() {
         <Row>
           <Col className="m-5">
             <Carousel fluid>
+              <Carousel.Item interval={3000}>
+                <img className="d-block w-100 photo" src={Picture00} alt="00" />
+                <Carousel.Caption>
+                  <p>Hold steady.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={3000}>
+                <img className="d-block w-100 photo" src={Picture0} alt="0" />
+                <Carousel.Caption>
+                  <p>Live at Skylark.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
               <Carousel.Item interval={3000}>
                 <img className="d-block w-100 photo" src={Picture1} alt="1" />
                 <Carousel.Caption>
@@ -58,6 +75,12 @@ function Media() {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item interval={3000}>
+                <img className="d-block w-100 photo" src={Picture9} alt="10" />
+                <Carousel.Caption>
+                  <p>Matt playing the... guitar?</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item interval={3000}>
                 <img className="d-block w-100 photo" src={Picture7} alt="7" />
                 <Carousel.Caption>
                   <p>Wirey, werewolf and bass playing.</p>
@@ -67,8 +90,7 @@ function Media() {
                 <img className="d-block w-100 photo" src={Picture8} alt="8" />
                 <Carousel.Caption>
                   <p>
-                    Synths and whiskey experiment that turned into the tragic
-                    lab accident.
+                    Synths and whiskey experiment = the tragic lab accident.
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>

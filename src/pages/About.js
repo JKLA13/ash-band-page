@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import Picture from "../assets/images/IMG_0027.jpg";
+import Picture from "../assets/images/band.jpg";
 import "../fonts/stylesheet.css";
 
 function About() {
