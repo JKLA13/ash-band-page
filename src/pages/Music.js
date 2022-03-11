@@ -1,10 +1,10 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-// import Image from "react-bootstrap/Image";
-// import Picture from "../assets/images/IMG_0021.JPG";
+import Image from "react-bootstrap/Image";
+import PictureB1 from "../assets/images/IMG_9038.jpg";
+import PictureB2 from "../assets/images/band2.jpg";
 import "../fonts/stylesheet.css";
 
 function About() {
@@ -26,7 +26,7 @@ function About() {
                   A Strange Happening by A Strange Happening
                 </a>
               </iframe>
-              <h2>Our First Single: The House in Cypress Canyon</h2>
+              <h3>Our First Single: The House in Cypress Canyon</h3>
               <iframe
                 title="A Strange Happening - The House in Cypress Canyon Single"
                 style={{ border: 1, width: "100%", height: "120px" }}
@@ -40,6 +40,10 @@ function About() {
             </div>
           </Col>
         </Row>
+        <h3>Don't time travel alone...</h3>
+        <Image src={PictureB1} className="me-8 center w-75 img-fluid" />
+        <h3>Don't time travel alone...</h3>
+        <Image src={PictureB2} className="me-8 center w-75 img-fluid" />
         {/* <Row>
           <Col></Col>
         </Row> */}

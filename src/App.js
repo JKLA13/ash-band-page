@@ -4,10 +4,10 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Music from "./pages/Music";
 import Media from "./pages/Media";
-// import Footer from "./components/Footer/Footer";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../src/App.css";
+import Footer from "./components/Footer/Footer";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+// import "../src/App.css";
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
             <Media />
           </Route>
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   );
