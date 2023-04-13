@@ -6,7 +6,7 @@ I used React, Node.js, HTML, Bootstrap, and CSS to create this website for my ba
 
 ## Screen Shots
 
--![Screenshot1](/client/src/assets/images/ScreenCapture.PNG "Screenshot1")
+-![Screenshot1](./src/assets/images/ScreenCapture.PNG "Screenshot1")
 
 ## Links
 
