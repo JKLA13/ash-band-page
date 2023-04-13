@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/ash-band-page/static/css/main.1cb2e8c1.chunk.css",
+    "main.js": "/ash-band-page/static/js/main.c2e7e7d0.chunk.js",
+    "main.js.map": "/ash-band-page/static/js/main.c2e7e7d0.chunk.js.map",
+    "runtime-main.js": "/ash-band-page/static/js/runtime-main.53e38d9f.js",
+    "runtime-main.js.map": "/ash-band-page/static/js/runtime-main.53e38d9f.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/ash-band-page/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.02b9a16f.chunk.js": "/ash-band-page/static/js/2.02b9a16f.chunk.js",
+    "static/js/2.02b9a16f.chunk.js.map": "/ash-band-page/static/js/2.02b9a16f.chunk.js.map",
+    "static/js/3.dc835318.chunk.js": "/ash-band-page/static/js/3.dc835318.chunk.js",
+    "static/js/3.dc835318.chunk.js.map": "/ash-band-page/static/js/3.dc835318.chunk.js.map",
+    "index.html": "/ash-band-page/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/ash-band-page/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.1cb2e8c1.chunk.css.map": "/ash-band-page/static/css/main.1cb2e8c1.chunk.css.map",
+    "static/js/2.02b9a16f.chunk.js.LICENSE.txt": "/ash-band-page/static/js/2.02b9a16f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ash-band-page/static/media/DKSheepman.555c5c92.woff2",
+    "static/media/IMG_0021.eea6cffa.JPG": "/ash-band-page/static/media/IMG_0021.eea6cffa.JPG",
+    "static/media/IMG_0026.68368434.PNG": "/ash-band-page/static/media/IMG_0026.68368434.PNG",
+    "static/media/IMG_0027.f54c01b3.jpg": "/ash-band-page/static/media/IMG_0027.f54c01b3.jpg",
+    "static/media/IMG_7246.f9266fc4.jpg": "/ash-band-page/static/media/IMG_7246.f9266fc4.jpg",
+    "static/media/IMG_7457.287954b5.jpg": "/ash-band-page/static/media/IMG_7457.287954b5.jpg",
+    "static/media/IMG_9018.2d0fd6ef.jpg": "/ash-band-page/static/media/IMG_9018.2d0fd6ef.jpg",
+    "static/media/IMG_9019.84a4b31c.jpg": "/ash-band-page/static/media/IMG_9019.84a4b31c.jpg",
+    "static/media/IMG_9020.e52e20eb.jpg": "/ash-band-page/static/media/IMG_9020.e52e20eb.jpg",
+    "static/media/IMG_9022.5e224886.jpg": "/ash-band-page/static/media/IMG_9022.5e224886.jpg",
+    "static/media/IMG_9023.3aa06fc8.jpg": "/ash-band-page/static/media/IMG_9023.3aa06fc8.jpg",
+    "static/media/IMG_9034.85648aba.jpg": "/ash-band-page/static/media/IMG_9034.85648aba.jpg",
+    "static/media/IMG_9038.2eb73003.jpg": "/ash-band-page/static/media/IMG_9038.2eb73003.jpg",
+    "static/media/IMG_9039.ca2068b1.jpg": "/ash-band-page/static/media/IMG_9039.ca2068b1.jpg",
+    "static/media/band.851ba546.jpg": "/ash-band-page/static/media/band.851ba546.jpg",
+    "static/media/band2.17494194.jpg": "/ash-band-page/static/media/band2.17494194.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53e38d9f.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.02b9a16f.chunk.js",
+    "static/css/main.1cb2e8c1.chunk.css",
+    "static/js/main.c2e7e7d0.chunk.js"
+  ]
+}
